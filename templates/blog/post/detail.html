@@ -18,8 +18,8 @@
     {% endwith %}
     {% for comment in comments %}
         <div class="comment">
-        <p class="info">{{ forloop.counter }} by {{ comments.name }}
-        {{ comments.created }}    
+        <p class="info">{{ forloop.counter }} by {{ comment.name }}
+        {{ comment.created }}    
         </p>
         {{ comment.body | linebreaks }}
         </div>
