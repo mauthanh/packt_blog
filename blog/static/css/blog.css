@@ -95,3 +95,8 @@ input[type=submit] {
     font-size:12px;
     color:#666;
 }
+
+.tag {
+    color:#00abff;
+    text-decoration:none;
+}
