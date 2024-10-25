@@ -7,3 +7,7 @@ psycopg==3.1.18
 python-decouple==3.8
 sqlparse==0.5.1
 typing_extensions==4.12.2
+uwsgi==2.0.25.1
+
+
+
