@@ -1,6 +1,6 @@
 # upstream for uWSGI
 upstream uwsgi_app {
-    server unix:code/packt_blog/uwsgi_app.sock;
+    server unix:/code/packt_blog/uwsgi_app.sock;
 }
 server {
     listen       80;
